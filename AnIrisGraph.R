@@ -4,6 +4,6 @@ sd(iris$Sepal.Length)
 my.plot <- ggplot(data=iris, aes(x=Sepal.Length,
                       y=Sepal.Width, color = Species)) +
   geom_point(size=5) +
-  ggtitle("My iris graph")
+  ggtitle("My iris graph 2")
 
 ggsave(filename="C:/User/Daegoon Lee/Desktop/MyNewProject/myIrisgraph.png")
